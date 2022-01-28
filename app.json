@@ -1,9 +1,7 @@
 {
-  "addons": [
-    { "plan": "heroku-postgresql:hobby-dev" }
-  ],
+  "addons": ["heroku-postgresql:hobby-dev"],
   "buildpacks": [
     { "url": "heroku/nodejs" },
-    { "url": "heroku/ruby" },
-  ],
+    { "url": "heroku/ruby" }
+  ]
 }
