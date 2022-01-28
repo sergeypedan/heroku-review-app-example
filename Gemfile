@@ -5,6 +5,7 @@ ruby '3.0.1'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'jbuilder'
+gem "pg", ">= 0.18", "< 2.0" # must appear before [puma, rails, russian]
 gem 'puma'
 gem 'rails', '~> 6.1.4', '>= 6.1.4.4'
 gem 'sassc-rails'
